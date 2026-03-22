@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-50 text-zinc-900 antialiased;
+}
+
+.card {
+  @apply rounded-3xl border border-zinc-200 bg-white shadow-soft;
+}
+
+.metric-label {
+  @apply text-sm text-zinc-500;
+}
+
+.metric-value {
+  @apply mt-1 text-2xl font-semibold;
+}
